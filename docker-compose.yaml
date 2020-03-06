@@ -1,0 +1,10 @@
+version: '3'
+services:
+  tradestats:
+    build: .
+    container_name: trade-stats
+
+    # ports:
+    ports:
+      - "8080:8080"
+
